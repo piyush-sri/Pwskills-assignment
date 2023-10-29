@@ -1,0 +1,30 @@
+Answer to Question.1
+ It is used to write succinct code in Java 8. Helps reduce the lines of codes,for example
+(a,b)->{a+b} //this expression adds two number.
+
+Answer to Question.2
+Yes, we ca pass a lambda expession to a method provided it is expecting a functional interface. For example, if a method is accepting a runnable,comparable or comparator then you can pass a lambda expression to it because all these are functional interfaces in Java 8.
+
+Answer to question.3
+Lambda Interface is an interface with a single abstract method. For Example. Comparator which has just one abstract method called compare() or Runnable which has just one abstract method called run(). There are many more general purpose functional interfaces introduced in JDK on java.util.function package. They are also annotated with @FunctionalInterface but that's optional.
+
+Answer to question.4
+Benefits of lambda expression in java:
+a)Reduce the size of code.
+b)Easier to pass a code block to a method.
+c)Alternative to a anonymous class, which requires a lot of boilerplate code.
+
+Answer to question.5
+
+NO. it's not mendatory for a lambda expression to have parameters, you can define a lambda expression without parameters as showsn below:
+()->{System.out.println("Hello");}
+
+
+
+
+
+
+
+
+
+
