@@ -1,0 +1,90 @@
+Answer to Question.1
+Statically Typed Language means you need to define the type of value that  a variable can hold inside it
+For example:
+int a; String b; float f; etc....
+Here we have to explicitly describe the data type of each variables
+Ex: Java, C, C++,etc.
+
+Dynamically Typed Language means we do not need to describe the data type of a variable beforehand based
+on the value provided it automatically sets its data type.
+Example of Dynamically Typed language are:  Python,etc.
+
+Answer to Question.2
+Variable is nothing but a container used to store value. It is the name given to a memory location where
+data is stored. It cannot starts with a number.
+
+Answer to Question.3
+To assign a value to a variable we use Assignment operator(=)
+Example: a=9
+
+Answer to Question.4
+Primitive data types in Java are predefined by the Java language and named as the reserved keywords. A primitive data type does not share a state with other primitive values. Java programming language supports the following eight primitive data types.
+
+Example:
+Boolean data type
+byte data type
+int data type
+long data type
+float data type
+double data type
+char data type
+short data type
+
+Answer to Question.5
+Identifiers are nothing but name used to identify a class, a variable or a method. Identifiers in Java are symbolic names used for identification. They can be a class name, variable name, method name, package name, constant name, and more.
+
+Answer to Question.6
+Operators in Java are the symbols used for performing specific operations in Java. Operators make tasks like addition, multiplication, etc which look easy although the implementation of these tasks is quite complex.
+
+Types of Operators in Java
+There are multiple types of operators in Java all are mentioned below:
+
+Arithmetic Operators
+Unary Operators
+Assignment Operator
+Relational Operators
+Logical Operators
+Ternary Operator
+Bitwise Operators
+Shift Operators
+instance of operator
+
+Answer to Question.7
+Increment operator is used to increment a value by 1. There are two varieties of increment operator: 
+
+Post-Increment: Value is first used for computing the result and then incremented.
+Pre-Increment: Value is incremented first and then the result is computed.
+
+Decrement operator is used for decrementing the value by 1. There are two varieties of decrement operators. 
+
+Post-decrement: Value is first used for computing the result and then decremented.
+Pre-decrement: Value is decremented first and then the result is computed.
+
+// Java program to Illustrate Increment and Decrement
+
+public class demo {
+ 
+    // main driver method
+    public static void main(String[] args)
+    {
+        // Declaring and initializing variable
+        int a = 10;
+ 
+        int b = ++a;
+ 
+        // This is change made in above program
+        // which reflects error during compilation
+        b = 10 --;
+ 
+        // Printing its value
+        System.out.println(b);
+    }
+}
+
+
+
+
+
+
+
+
